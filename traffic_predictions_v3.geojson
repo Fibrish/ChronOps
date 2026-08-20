@@ -1,0 +1,465 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6408,
+            12.9784
+          ],
+          [
+            77.6413,
+            12.978900000000001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "0",
+        "current_speed": 37265.0,
+        "predicted_speed_30m": 30785.2,
+        "status_color": "green",
+        "dynamic_weight": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6409,
+            12.9785
+          ],
+          [
+            77.6414,
+            12.979000000000001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "1",
+        "current_speed": 38.5,
+        "predicted_speed_30m": 39.9,
+        "status_color": "yellow",
+        "dynamic_weight": 1.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.641,
+            12.9786
+          ],
+          [
+            77.64150000000001,
+            12.9791
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "2",
+        "current_speed": 1.5,
+        "predicted_speed_30m": 1.4,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6411,
+            12.9787
+          ],
+          [
+            77.6416,
+            12.9792
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "3",
+        "current_speed": 100.0,
+        "predicted_speed_30m": 85.1,
+        "status_color": "green",
+        "dynamic_weight": 0.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6412,
+            12.978800000000001
+          ],
+          [
+            77.6417,
+            12.979300000000002
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "4",
+        "current_speed": 100.0,
+        "predicted_speed_30m": 94.1,
+        "status_color": "green",
+        "dynamic_weight": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6413,
+            12.978900000000001
+          ],
+          [
+            77.6418,
+            12.979400000000002
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "5",
+        "current_speed": 4.0,
+        "predicted_speed_30m": 1.6,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6414,
+            12.979000000000001
+          ],
+          [
+            77.6419,
+            12.979500000000002
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "6",
+        "current_speed": 124.5,
+        "predicted_speed_30m": 111.6,
+        "status_color": "green",
+        "dynamic_weight": 0.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6415,
+            12.9791
+          ],
+          [
+            77.642,
+            12.979600000000001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "7",
+        "current_speed": 70.6,
+        "predicted_speed_30m": 42.2,
+        "status_color": "yellow",
+        "dynamic_weight": 1.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6416,
+            12.9792
+          ],
+          [
+            77.6421,
+            12.979700000000001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "8",
+        "current_speed": 64.7,
+        "predicted_speed_30m": 78.5,
+        "status_color": "green",
+        "dynamic_weight": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6417,
+            12.9793
+          ],
+          [
+            77.6422,
+            12.979800000000001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "9",
+        "current_speed": 95.6,
+        "predicted_speed_30m": 73.6,
+        "status_color": "green",
+        "dynamic_weight": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6418,
+            12.9794
+          ],
+          [
+            77.6423,
+            12.9799
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "10",
+        "current_speed": 112.0,
+        "predicted_speed_30m": 106.1,
+        "status_color": "green",
+        "dynamic_weight": 0.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.64189999999999,
+            12.9795
+          ],
+          [
+            77.6424,
+            12.98
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "11",
+        "current_speed": 4.0,
+        "predicted_speed_30m": 2.7,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.642,
+            12.979600000000001
+          ],
+          [
+            77.6425,
+            12.980100000000002
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "12",
+        "current_speed": 0.0,
+        "predicted_speed_30m": 0.2,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6421,
+            12.979700000000001
+          ],
+          [
+            77.6426,
+            12.980200000000002
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "13",
+        "current_speed": 8.0,
+        "predicted_speed_30m": 5.5,
+        "status_color": "red",
+        "dynamic_weight": 10.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6422,
+            12.979800000000001
+          ],
+          [
+            77.6427,
+            12.980300000000002
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "14",
+        "current_speed": 1.0,
+        "predicted_speed_30m": 0.4,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.64229999999999,
+            12.9799
+          ],
+          [
+            77.6428,
+            12.980400000000001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "15",
+        "current_speed": 0.0,
+        "predicted_speed_30m": 0.1,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6424,
+            12.98
+          ],
+          [
+            77.6429,
+            12.980500000000001
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "16",
+        "current_speed": 0.0,
+        "predicted_speed_30m": 0.1,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6425,
+            12.9801
+          ],
+          [
+            77.643,
+            12.9806
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "17",
+        "current_speed": 0.0,
+        "predicted_speed_30m": 0.0,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6426,
+            12.9802
+          ],
+          [
+            77.6431,
+            12.9807
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "18",
+        "current_speed": 0.0,
+        "predicted_speed_30m": 0.0,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6427,
+            12.9803
+          ],
+          [
+            77.64320000000001,
+            12.9808
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "19",
+        "current_speed": 0.0,
+        "predicted_speed_30m": 0.1,
+        "status_color": "red",
+        "dynamic_weight": 12.0
+      }
+    }
+  ]
+}
