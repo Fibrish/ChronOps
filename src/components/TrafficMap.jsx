@@ -126,10 +126,6 @@ export const TrafficMap = ({
     if (!roadsData || !showRoads) return;
 
     const layer = L.geoJSON(roadsData, {
-      coordsToLatLng: (coords) => {
-        if (coords[0] < 40) return new L.LatLng(coords[0], coords[1]);
-        return new L.LatLng(coords[1], coords[0]);
-      },
       style: (feature) => {
         const severity = feature?.properties?.severity || 'free';
         const color = SEVERITY_COLORS[severity] || SEVERITY_COLORS.free;
@@ -291,10 +287,6 @@ export const TrafficMap = ({
     // 1. Standard Route Layer (Blue dashed)
     if (routes.standard_route && showStandardRoute) {
       const stdLayer = L.geoJSON(routes.standard_route, {
-        coordsToLatLng: (coords) => {
-          if (coords[0] < 40) return new L.LatLng(coords[0], coords[1]);
-          return new L.LatLng(coords[1], coords[0]);
-        },
         style: {
           color: ROUTE_CONFIG.standard.color,
           weight: ROUTE_CONFIG.standard.weight,
@@ -315,10 +307,6 @@ export const TrafficMap = ({
     if (routes.ai_route && showAiRoute) {
       // Outer glow layer
       const haloLayer = L.geoJSON(routes.ai_route, {
-        coordsToLatLng: (coords) => {
-          if (coords[0] < 40) return new L.LatLng(coords[0], coords[1]);
-          return new L.LatLng(coords[1], coords[0]);
-        },
         style: {
           color: '#d946ef',
           weight: 11,
@@ -330,10 +318,6 @@ export const TrafficMap = ({
 
       // Core radiant line
       const coreLayer = L.geoJSON(routes.ai_route, {
-        coordsToLatLng: (coords) => {
-          if (coords[0] < 40) return new L.LatLng(coords[0], coords[1]);
-          return new L.LatLng(coords[1], coords[0]);
-        },
         style: {
           color: ROUTE_CONFIG.ai.color,
           weight: ROUTE_CONFIG.ai.weight,
