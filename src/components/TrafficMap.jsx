@@ -49,6 +49,13 @@ export const TrafficMap = ({
       maxZoom: 19,
     }).addTo(map);
 
+    // Fix for React mount race conditions causing SVG misalignment
+    setTimeout(() => {
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.invalidateSize();
+      }
+    }, 400);
+
     // Click handler for placing Origin & Destination pins
     map.on('click', (e) => {
       const { lat, lng } = e.latlng;
