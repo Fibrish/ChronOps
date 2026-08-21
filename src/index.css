@@ -653,7 +653,7 @@ html, body {
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.18) 0%, rgba(168, 85, 247, 0.25) 100%);
   border: 1px solid rgba(168, 85, 247, 0.4);
   border-radius: 14px;
-  padding: 1rem 1.25rem;
+  padding: 1.25rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -676,7 +676,8 @@ html, body {
 .time-saved-info {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  justify-content: center;
+  gap: 0.4rem;
 }
 
 .time-saved-tag {
@@ -691,11 +692,12 @@ html, body {
 }
 
 .time-saved-val {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 800;
   font-family: var(--font-mono);
   color: #ffffff;
   letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
 .time-saved-badge {
@@ -811,10 +813,12 @@ html, body {
 .metric-box {
   background: rgba(0, 0, 0, 0.35);
   border-radius: 8px;
-  padding: 0.5rem;
+  padding: 0.75rem;
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
 }
 
 .metric-label {
@@ -824,7 +828,7 @@ html, body {
 }
 
 .metric-value {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
   font-family: var(--font-mono);
   color: var(--text-main);

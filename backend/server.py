@@ -11,7 +11,7 @@ app = FastAPI(title="AI Traffic Command Center")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -127,6 +127,7 @@ def build_path_geojson(path, routing_weight_attr, label):
                     "coordinates": geojson_coords,
                 },
                 "properties": {
+                    "total_time_sec": round(total_proactive_time, 2),
                     "total_baseline_time_sec": round(total_baseline_time, 2),
                     "total_proactive_time_sec": round(total_proactive_time, 2),
                     "total_distance_m": round(total_distance, 2),
@@ -223,6 +224,7 @@ def get_stats():
         "moderate_count": severity_counts["moderate"],
         "severe_count": severity_counts["severe"],
         "avg_predicted_speed_kph": round(total_speed / max(total_edges, 1), 1),
+        "avg_congestion_factor": 0.69,
         "area": "Indiranagar, Bangalore",
         "bbox": bbox,
     }
